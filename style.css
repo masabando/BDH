@@ -17,7 +17,7 @@ html {
 #BDH {
   box-sizing: border-box;
   background: #fff;
-  width: 540px;
+  width: 100%;
   padding: 10px 10px 4px 10px;
   margin: 0;
 }
@@ -52,6 +52,7 @@ html {
   width: 140px;
   text-align: left;
   font-size: 12pt;
+  padding: 4px 4px;
   cursor: auto;
   user-select: ; text;
   -moz-user-select: text; -o-user-select: text;
