@@ -1,0 +1,120 @@
+
+html, body, div, table, tr, td, span, h1, h2, input {
+  margin: 0; padding: 0;
+}
+
+html {
+  font-size: 12pt;
+  overflow-y: scroll;
+  background: #444;
+  font-family: "Lucida Sans Unicode","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Helvetica,Arial,Verdana,sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
+}
+
+
+#BDH {
+  box-sizing: border-box;
+  background: #fff;
+  width: 540px;
+  padding: 10px 10px 4px 10px;
+  margin: 0;
+}
+
+#question_container {
+  box-sizing: border-box;
+  text-align: left;
+  padding: 10px 0;
+}
+#textline {
+  text-align: left;
+}
+#numline {
+  text-align: left;
+  margin: 4px 0 0 0;
+}
+.monospace {
+  font-family: monospace;
+}
+
+#answer_container {
+  box-sizing: border-box;
+  vertical-align: center;
+  text-align: right;
+  padding: 10px 0;
+}
+
+#answer_input {
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: monospace;
+  width: 140px;
+  text-align: left;
+  font-size: 12pt;
+  cursor: auto;
+  user-select: ; text;
+  -moz-user-select: text; -o-user-select: text;
+  -webkit-user-select: text; -ms-user-select: text;
+  vertical-align: center;
+}
+
+#answer_output {
+  visibility: hidden;
+  padding: 0 0 10px 0;
+}
+
+#info_container {
+  text-align: center;
+}
+.seikai { color: #f00; font-weight: bold; }
+.huseikai { color: #00f; font-weight: bold; }
+
+#submit_button {
+  margin: 0 0 0 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100px; height: 30px; line-height: 30px;
+  border: 1px solid #aaa;
+  background: #aaf;
+  vertical-align: center;
+}
+
+#next_button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100px; height: 40px; line-height: 40px;
+  border: 1px solid #aaa;
+  background: #ddd;
+  visibility: hidden;
+}
+
+
+.button {
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  -moz-user-select: none; -o-user-select: none;
+  -webkit-user-select: none; -ms-user-select: none;
+}
+
+.noselect {
+  cursor: default;
+  user-select: none;
+  -moz-user-select: none; -o-user-select: none;
+  -webkit-user-select: none; -ms-user-select: none;
+}
+
+#header {
+  font-size: 18pt;
+  text-align: center;
+  padding: 0 0 20px 0;
+  color: #00a;
+  font-weight: bold;
+}
+
+#footer {
+  margin: 10px 0 0 0;
+  font-size: 9pt;
+  color: #555;
+}
