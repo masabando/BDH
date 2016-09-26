@@ -1,7 +1,7 @@
 
 function bdh() {
   var APP_NAME = 'bdh.js';
-  var VERSION = "0.1";
+  var VERSION = "0.2";
 
   var content = $('#BDH');
   var question_container = $('#question_container')
