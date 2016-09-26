@@ -115,6 +115,7 @@ function bdh() {
     var from_base = base_a[from_i];
     var to_base = base_a[(from_i + get_rand(1,2)) % 3];
     var from_x;
+    answer_input.val("");
     answer_output.css("visibility", "hidden");
     next_button.css("visibility", "hidden");
     switch(from_base) {
