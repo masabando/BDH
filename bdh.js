@@ -94,8 +94,13 @@ function bdh() {
 
   function add_hook_buttons() {
     $('#submit_button').on(click_event, function() {
+      var ans = answer;
+      if (ans.length == 9 && ans.charAt(4) === ' ') {
+        ans = answer.substr(0,4) + answer.substr(5,4);
+      }
       answer_output.html(
-        (answer_input.val() === answer ? '<span class="seikai">正解</span>'
+        ((answer_input.val() === answer || answer_input.val() === ans)
+         ? '<span class="seikai">正解</span>'
          : '<span class="huseikai">不正解</span>')
           + "<br>正解は " + answer + " です。"
       );
