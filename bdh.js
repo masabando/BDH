@@ -146,7 +146,7 @@ function bdh() {
 
   function init() {
     agent_checker();
-    footer.html(APP_NAME + " -- v." + VERSION)
+    footer.html(APP_NAME + " -- v." + VERSION);
     add_hook_buttons();
   }
 
